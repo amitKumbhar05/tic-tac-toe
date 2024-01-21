@@ -39,7 +39,7 @@ function Grid() {
     }
   }
   return (
-    <div className='h-[100vh] w-[100vw] flex flex-col bg-gray-900'>
+    <div className='h-[100vh] w-[100vw] flex flex-col justify-center items-center bg-gray-900'>
 
       <div className='flex text-white font-bold text-5xl text-center'>
         <div id='1' onClick={()=>run(1)} className='h-20 w-20 bg-red-500 border-solid border-black border-2 cursor-pointer hover:scale-110'><h1></h1></div>
